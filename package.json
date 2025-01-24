@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "myqrcodeprojekt",
+  "version": "1.0.0",
+  "main": "src/funktion_II.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soraya1618/myproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soraya1618/myproject/issues"
+  },
+  "homepage": "https://github.com/soraya1618/myproject#readme",
+  "description": ""
+}
