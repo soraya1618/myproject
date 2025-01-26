@@ -1,3 +1,15 @@
+
+/*** Rechner */
+/*
+0. a+b / a-b/ a*b / a/b  // ergebnis c 
+1. Dateneingabe + -überprüfung :
+2. Auswahl Rechenart : check!
+3. Fkt. Grundrechenarten : check!
+4. Ausgabe in Konsole : check!
+*/
+
+
+
 const prompt = require('prompt-sync')({sigint: true});
 // test
 // output(add(2,2));
@@ -77,7 +89,7 @@ function calculator(a, b, operator) {
 
 }
 //TWO: wie soll es gelöst werden?
-startApp(calculator(getErsterZahl,getZweiteZahl,operator));
+startApp(calculator(getErsterZahl,getZweiteZahl,getOperator));
 function startApp() {
    output(calculator(getErsterZahl(),getZweiteZahl(),getOperator()))
 }   
@@ -101,3 +113,7 @@ function getOperator() {
 function output(result) {
     console.log(result);
 }
+
+//______funktion III _____________________
+// abbrechen mit strg + C
+ 
