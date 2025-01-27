@@ -4,7 +4,7 @@
   },
   "name": "myqrcodeprojekt",
   "version": "1.0.0",
-  "main": "src/array.js",
+  "main": "src/Aufgaben.js",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

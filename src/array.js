@@ -98,6 +98,6 @@ hier: Aufsummierung(jambandi)
 //     output(str);
 // }
 
-function output(outputData){
-    console.log(outputData);
-}
+// function output(outputData){
+//     console.log(outputData);
+// }
