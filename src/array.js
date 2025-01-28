@@ -124,21 +124,33 @@ hier: Aufsummierung(jambandi)
 
 
 
+/*
+Aufgabe:
+erstelllen Sie eine JS-Struktur, die Ihnen den folgenden STring gibt:
+Aufgabe:
+<html><head></head><body><h1></h1><p></p></body></html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>
+        </h1>
+            <p>
+            </p>
+    </body> 
+</html>
+*/
+// let arr = ["<html>","<head>","</head>","<body>","<h1>","</h1>","<p>","</p>","</body>","</html>"];
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
 
 
-
-
-
-
-// Html code erzeugen
 const COBJ = {open_o: "<", close_o:"</",close:">"};
 const TAGS = [ "html", "head", "head", "body",
                 "h1", "h1",
                 "p", "p", 
-                "ul","li", "li", "li", "li","ul", 
-                "ol", "li", "li", "ol",  
-                "p","p",
-                "body","html"
+                 "body","html"
             ];
 
 const NEW_LINE_STR = "\n";
@@ -146,13 +158,13 @@ const NEW_TAB_STR = "\t";
 
 let stack = [];
 
-
+// Modul: Html-synthese |test 
 //call
-output(generateHtml());
+output(getHtml());
 // output(generateHtml(TAGS[1]));
 // output(generateHtml(TAGS[1]));
 
-function generateHtml() {
+function getHtml() {
     let htmlStr = "";
     let count = 0;
     let op = "";
@@ -207,7 +219,8 @@ function getElement(tag, op){
             return "ERROR";
     }
 }
+    
 function output(outputData) {
-    console.log(outputData);
+   console.log(outputData);
 }
 
