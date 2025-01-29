@@ -114,6 +114,3 @@ function output(result) {
     console.log(result);
 }
 
-//______funktion III _____________________
-// abbrechen mit strg + C
- 
