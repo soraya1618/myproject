@@ -1,0 +1,13 @@
+<firma>
+    <abteilung name = "Buchhaltung">
+        <ma name = "jansen"></ma>
+     </abteilung>
+    <abteilung name = "Produktion">
+        <ma name = "baier"></ma>
+        <ma name = "hakimi"></ma> 
+    </abteilung>
+    <abteilung name = "Vertrieb">
+    </abteilung> 
+
+
+ </firma>
