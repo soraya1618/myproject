@@ -7,7 +7,7 @@
 //     verheiratet: true,
 //     sayHello: function(){
 //         return "salam!"
-            return  "hallo , ich bin " + person.firstName + " und verdiene im Jahr " + person.salary[0] +  " Euro!"; 
+//             return  "hallo , ich bin " + person.firstName + " und verdiene im Jahr " + person.salary[0] +  " Euro!"; 
 //     }
 // };
 // output(person);
